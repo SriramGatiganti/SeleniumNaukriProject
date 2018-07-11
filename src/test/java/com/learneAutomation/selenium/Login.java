@@ -22,6 +22,8 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 public class Login extends BaseClass {
 
 	//Closing unwanted popups and windows
+	
+	//Testing GITHUB
 
 
 		public void CloseWindowsAndPoups() throws Exception {
