@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.learneAutomation.selenium.Login">
+        <methods>
+          <include name="LogOutApplication"/>
+          <include name="Report"/>
+          <include name="updateProfile"/>
+          <include name="LogInApplication"/>
+          <include name="CloseDriver"/>
+          <include name="ScreenshotForFailure"/>
+          <include name="StartBrowser"/>
+        </methods>
+      </class> <!-- com.learneAutomation.selenium.Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
